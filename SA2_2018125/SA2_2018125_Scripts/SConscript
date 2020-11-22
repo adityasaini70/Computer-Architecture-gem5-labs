@@ -1,0 +1,7 @@
+Import('*')
+
+SimObject('MatrixObject.py')
+Source('matrix_object.cc')
+
+DebugFlag('MATRIX')
+DebugFlag('RESULT')
